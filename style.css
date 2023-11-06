@@ -8,5 +8,86 @@
 
 body {
   background-color: hsl(218, 28%, 13%);
+  margin: 4% 5%;
   color: hsl(0, 0%, 100%);
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+}
+body header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 20rem;
+}
+body header ul li:hover {
+  border-bottom: 1px white solid;
+  cursor: pointer;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .first {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+body main .first h2 {
+  margin-top: 5%;
+  width: 34rem;
+  text-align: center;
+}
+body main .first p {
+  margin-top: 3%;
+  width: 31rem;
+  text-align: center;
+}
+body main .first button {
+  margin-top: 3%;
+  width: 15rem;
+  height: 3rem;
+  background-color: hsl(198, 60%, 50%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  border-radius: 25px;
+}
+body main .first button:hover {
+  cursor: pointer;
+  background-color: hsl(176, 68%, 64%);
+}
+body main .second {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 50rem;
+  height: 47rem;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6%;
+}
+body main .second .container-one, body main .second .container-two {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+body main .second .container-one .cards, body main .second .container-two .cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+body main .second .container-one .cards h4, body main .second .container-two .cards h4 {
+  margin-top: 5%;
+}
+body main .second .container-one .cards p, body main .second .container-two .cards p {
+  margin-top: 3%;
+  width: 17rem;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

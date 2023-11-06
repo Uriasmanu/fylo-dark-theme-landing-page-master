@@ -1,4 +1,102 @@
 body{
     background-color: $Dark-Blue-main;
+    margin: 4% 5%;
     color: $White;
+
+    header{
+        display: flex;
+        justify-content: space-between;
+
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            width: 20rem;
+
+            li{
+                &:hover{
+                    border-bottom: 1px white solid;
+                    cursor: pointer;
+                }
+            }
+            }
+            
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        .first{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 5%;
+
+            h2{
+                margin-top: 5%;
+                width: 34rem;
+                text-align: center;
+            }
+
+            p{
+                margin-top: 3%;
+                width: 31rem;
+                text-align: center;
+            }
+
+            button{
+                margin-top: 3%;
+                width: 15rem;
+                height: 3rem;
+                background-color: $Blue;
+                border: none;
+                color: $White;
+                font-weight: 700;
+                border-radius: 25px;
+
+                &:hover{
+                    cursor: pointer;
+                    background-color: $Cyan;
+                }
+            }
+        }
+
+        .second{
+            display: flex;
+            flex-wrap: nowrap;
+            width: 50rem;
+            height: 47rem;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 6%;
+
+            .container-one, .container-two{
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                height: auto;
+                align-items: center;
+
+                .cards{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 10%;
+
+                    h4{
+                        margin-top: 5%;
+                    }
+
+                    p{
+                        margin-top: 3%;
+                        width: 17rem; 
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
 }
