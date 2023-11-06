@@ -98,5 +98,44 @@ body{
                 }
             }
         }
+
+        .third{
+            display: flex;
+            width: 90%;
+            justify-content: space-between;
+            align-items: center;
+
+            .image{
+                width: 30rem;
+            }
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                height: 17rem;
+                width: 35rem;
+                justify-content: space-between;
+
+                h2{
+                    width: 15rem;
+                }
+
+                .sub-text{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 11rem;
+
+                    &:hover{
+                        cursor: pointer;
+                        border-bottom: 1px solid $White;
+                    }
+                }
+            }
+
+        }
+
+        .fourth{
+            display: flex;
+        }
     }
 }

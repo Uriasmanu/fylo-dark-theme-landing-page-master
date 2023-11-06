@@ -90,4 +90,35 @@ body main .second .container-one .cards p, body main .second .container-two .car
   margin-top: 3%;
   width: 17rem;
   text-align: center;
+}
+body main .third {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .third .image {
+  width: 30rem;
+}
+body main .third .text {
+  display: flex;
+  flex-direction: column;
+  height: 17rem;
+  width: 35rem;
+  justify-content: space-between;
+}
+body main .third .text h2 {
+  width: 15rem;
+}
+body main .third .text .sub-text {
+  display: flex;
+  justify-content: space-between;
+  width: 11rem;
+}
+body main .third .text .sub-text:hover {
+  cursor: pointer;
+  border-bottom: 1px solid hsl(0, 0%, 100%);
+}
+body main .fourth {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
