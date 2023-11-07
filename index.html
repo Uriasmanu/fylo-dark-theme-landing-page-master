@@ -172,11 +172,12 @@
           questions, our support team would be happy to help you.</p>
 
         <div class="get">
-          <input type="email" name="email" id="">
+          <label style="display: none;" for="email">Email:</label>
+          <input type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            title="Please enter a valid email address">
           <button>Get Started For Free</button>
         </div>
 
-      </div>
 
     </Section>
   </main>
@@ -232,7 +233,7 @@
     </div>
   </footer>
 </body>
-
+<script src="main.js"></script>
 <script src="https://kit.fontawesome.com/5385270ec5.js" crossorigin="anonymous"></script>
 
 </html>
