@@ -9,12 +9,13 @@
 
 body {
   background-color: hsl(218, 28%, 13%);
-  margin: 0% 5% 0% 0%;
+  margin: 0% 5% 0% 5%;
   color: hsl(0, 0%, 100%);
 }
 body header {
   display: flex;
   justify-content: space-between;
+  margin-top: 5%;
 }
 body header ul {
   list-style: none;
@@ -229,6 +230,6 @@ body footer {
   width: 100%;
   height: 20rem;
   position: relative;
-  left: -3%;
+  left: -6%;
   align-items: center;
 }/*# sourceMappingURL=style.css.map */

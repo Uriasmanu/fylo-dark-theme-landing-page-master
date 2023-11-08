@@ -1,11 +1,13 @@
 body{
     background-color: $Dark-Blue-main;
-    margin: 0% 5% 0% 0%;
+    margin: 0% 5% 0% 5%;
     color: $White;
 
     header{
         display: flex;
         justify-content: space-between;
+        margin-top: 5%;
+
 
         ul{
             list-style: none;
@@ -263,7 +265,7 @@ body{
         width: 100%;
         height: 20rem;
         position: relative;
-        left: -3%;
+        left: -6%;
         align-items: center;
     }
 }
