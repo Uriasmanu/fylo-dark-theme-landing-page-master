@@ -302,7 +302,7 @@ body footer .container .icons i:hover {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   body {
     background-color: hsl(218, 28%, 13%);
     margin: 0% 5% 0% 5%;
@@ -314,14 +314,18 @@ body footer .container .icons i:hover {
     margin-top: 5%;
     width: 100%;
   }
+  body header img {
+    width: 5rem;
+  }
   body header nav {
     width: 100%;
+    display: contents;
   }
   body header ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    width: 20rem;
+    width: 13rem;
   }
   body header ul li:hover {
     border-bottom: 1px white solid;
@@ -338,6 +342,7 @@ body footer .container .icons i:hover {
     align-items: center;
     flex-direction: column;
     margin-top: 5%;
+    width: 100%;
   }
   body main .first img {
     height: 30vh;
@@ -345,16 +350,16 @@ body footer .container .icons i:hover {
   }
   body main .first h2 {
     margin-top: 5%;
-    width: 34rem;
+    width: 97%;
     text-align: center;
   }
   body main .first p {
     margin-top: 3%;
-    width: 31rem;
+    width: 95%;
     text-align: center;
   }
   body main .first button {
-    margin-top: 3%;
+    margin-top: 10%;
     width: 15rem;
     height: 3rem;
     background-color: hsl(198, 60%, 50%);
@@ -370,17 +375,17 @@ body footer .container .icons i:hover {
   body main .second {
     display: flex;
     flex-wrap: nowrap;
-    width: 50rem;
-    height: 47rem;
+    width: 100%;
+    height: 79rem;
     flex-direction: column;
     align-items: center;
-    margin-top: 6%;
+    margin-top: 22%;
   }
   body main .second .container-one, body main .second .container-two {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: auto;
+    height: 36rem;
     align-items: center;
     flex-direction: column;
   }
@@ -406,13 +411,13 @@ body footer .container .icons i:hover {
     flex-direction: column;
   }
   body main .third .image {
-    width: 30rem;
+    width: 100%;
   }
   body main .third .text {
     display: flex;
     flex-direction: column;
     height: 17rem;
-    width: 35rem;
+    width: 100%;
     justify-content: space-between;
   }
   body main .third .text h2 {
@@ -534,11 +539,78 @@ body footer .container .icons i:hover {
   body footer {
     display: flex;
     background-color: hsl(216, 53%, 9%);
-    padding: 4rem;
-    width: 100%;
+    width: 77%;
     height: 20rem;
     position: relative;
     left: -6%;
     align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  body footer .logo {
+    width: 8rem;
+    position: relative;
+    margin-top: 5%;
+    left: 4%;
+  }
+  body footer .container {
+    display: flex;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  body footer .container .text {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 23rem;
+    gap: 20px;
+  }
+  body footer .container .container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 5rem;
+    width: 7rem;
+  }
+  body footer .container .container-contact .contact {
+    display: flex;
+    justify-content: space-between;
+    width: 11rem;
+  }
+  body footer .container .infos {
+    display: flex;
+    justify-content: space-between;
+    width: 13rem;
+  }
+  body footer .container .infos ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 6rem;
+    gap: 10px;
+  }
+  body footer .container .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 6rem;
+  }
+  body footer .container .icons i {
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  body footer .container .icons i:hover {
+    color: hsl(198, 60%, 50%);
+    cursor: pointer;
   }
 }/*# sourceMappingURL=style.css.map */
