@@ -232,6 +232,74 @@ body footer {
   position: relative;
   left: -6%;
   align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+}
+body footer .logo {
+  width: 8rem;
+  position: relative;
+  margin-top: 5%;
+  left: 4%;
+}
+body footer .container {
+  display: flex;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+body footer .container .text {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 23rem;
+  gap: 20px;
+}
+body footer .container .container-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 5rem;
+  width: 7rem;
+}
+body footer .container .container-contact .contact {
+  display: flex;
+  justify-content: space-between;
+  width: 11rem;
+}
+body footer .container .infos {
+  display: flex;
+  justify-content: space-between;
+  width: 13rem;
+}
+body footer .container .infos ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 6rem;
+  gap: 10px;
+}
+body footer .container .icons {
+  display: flex;
+  justify-content: space-between;
+  width: 6rem;
+}
+body footer .container .icons i {
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+body footer .container .icons i:hover {
+  color: hsl(198, 60%, 50%);
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
